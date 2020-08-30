@@ -1,0 +1,77 @@
+h1{
+  margin: 0 auto;
+    text-align: center;
+}
+
+.nameTag{
+  margin-top: 2vw;
+  width: 8%;
+  margin-left: 2%;
+  font-size: 2vw;
+}
+
+.namedivm{
+  width: 15vw;
+    margin-left: 2%;
+    margin-top: 7px;
+}
+
+.inputtype{
+  padding: 8px 12px;
+  margin: 29px 0;
+  box-sizing: border-box;
+}
+
+.sumlabel{
+  margin-top: 2vw;
+    font-size: 2vw;
+    margin-left: 4vw;
+}
+
+.sumText{
+  padding: 8px 12px;
+    margin: 29px 0;
+    box-sizing: border-box;
+    margin-left: 12%;
+}
+
+.buttonTag{
+  margin-left: 27%;
+    margin-top: 2%;
+    list-style: none;
+    display: flex;
+}
+
+#student-table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  position: relative;
+    margin-top: 4%;
+    margin-left: 2%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+th,td{
+  border: 2px solid #dddddd;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/* 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+
