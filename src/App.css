@@ -1,3 +1,11 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
 h1{
   margin: 0 auto;
     text-align: center;
@@ -36,7 +44,6 @@ h1{
 }
 
 .buttonTag{
-  margin-left: 27%;
     margin-top: 2%;
     list-style: none;
     display: flex;
@@ -51,10 +58,6 @@ h1{
     margin-left: 2%;
 }
 
-::-webkit-scrollbar {
-  width: 10px;
-}
-
 th,td{
   border: 2px solid #dddddd;
 }
@@ -67,11 +70,25 @@ th,td{
   height: 40vmin;
   pointer-events: none;
 }
-/* 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
 
+li{
+  background: beige;
+    width: 42vw;
+    line-height: 27px;
+    border-bottom: black;
+    border-bottom-style: inset;
+    background: burlywood;
+    margin-top: 1%;
+    list-style: none;
+    margin: auto;
+}
+
+li:nth-child(even){
+  background-color: Lightgreen; 
+}
+
+ul{
+  text-align: center;
+    overflow: scroll;
+}
 

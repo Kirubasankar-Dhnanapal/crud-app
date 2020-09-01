@@ -1,6 +1,7 @@
 import { Route, Switch,HashRouter } from "react-router-dom";
 import React, { Component } from "react";
 import App from './App';
+import Lazyload from './lazyload';
 
 
 class Routers extends Component {
@@ -16,6 +17,7 @@ class Routers extends Component {
             <HashRouter>
                 <Switch>
                     <Route exact path='/' component={App}/>
+                    <Route path='/lazy' component={Lazyload}/>
                 </Switch>
             </HashRouter>
         );
